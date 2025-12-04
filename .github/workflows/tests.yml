@@ -109,9 +109,9 @@ jobs:
           keep_files: false
 
   notify:
-    name: Send Notifications
-    runs-on: ubuntu-latest
+    name: Notify
     needs: test
+    runs-on: ubuntu-latest
     if: always()
     
     steps:
