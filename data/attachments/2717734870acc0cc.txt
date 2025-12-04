@@ -1,0 +1,6 @@
+2025-12-04 15:31:35,497 - JSONPlaceholderClient - INFO - PUT https://jsonplaceholder.typicode.com/posts/1
+2025-12-04 15:31:35,497 - JSONPlaceholderClient - DEBUG - Payload: {'id': 1, 'title': 'Updated Test Post', 'body': 'This post has been updated during testing', 'userId': 1}
+2025-12-04 15:31:35,525 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+2025-12-04 15:31:35,525 - JSONPlaceholderClient - INFO - 200 (0.03s)
+2025-12-04 15:31:35,525 - JSONPlaceholderClient - DEBUG - {'id': 1, 'title': 'Updated Test Post', 'body': 'This post has been updated during testing', 'userId': 1}
+2025-12-04 15:31:35,525 - test - INFO - Post 1 updated successfully

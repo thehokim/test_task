@@ -1,0 +1,6 @@
+2025-12-04 15:31:35,473 - JSONPlaceholderClient - INFO - POST https://jsonplaceholder.typicode.com/posts
+2025-12-04 15:31:35,473 - JSONPlaceholderClient - DEBUG - Payload: {'title': 'Test Post from Pytest', 'body': 'This is a test post created during automated testing', 'userId': 1}
+2025-12-04 15:31:35,493 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "POST /posts HTTP/1.1" 201 132
+2025-12-04 15:31:35,494 - JSONPlaceholderClient - INFO - 201 (0.02s)
+2025-12-04 15:31:35,494 - JSONPlaceholderClient - DEBUG - {'title': 'Test Post from Pytest', 'body': 'This is a test post created during automated testing', 'userId': 1, 'id': 101}
+2025-12-04 15:31:35,494 - test - INFO - Post created with ID: 101

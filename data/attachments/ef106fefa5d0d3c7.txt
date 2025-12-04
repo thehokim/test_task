@@ -1,0 +1,5 @@
+INFO     JSONPlaceholderClient:client.py:29 GET https://jsonplaceholder.typicode.com/posts/3
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/3 HTTP/1.1" 200 None
+INFO     JSONPlaceholderClient:client.py:34 200 (0.02s)
+DEBUG    JSONPlaceholderClient:client.py:36 {'userId': 1, 'id': 3, 'title': 'ea molestias quasi exercitationem repellat qui ipsa sit aut', 'body': 'et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut'}
+INFO     test:test_posts.py:188 Post 3 validated: ea molestias quasi exercitationem repellat qui ipsa sit aut

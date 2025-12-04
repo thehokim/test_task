@@ -1,0 +1,5 @@
+2025-12-04 15:31:35,450 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/posts/99999
+2025-12-04 15:31:35,469 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /posts/99999 HTTP/1.1" 404 None
+2025-12-04 15:31:35,470 - JSONPlaceholderClient - INFO - 404 (0.02s)
+2025-12-04 15:31:35,470 - JSONPlaceholderClient - DEBUG - {}
+2025-12-04 15:31:35,470 - test - INFO - Received 404 for post ID 99999

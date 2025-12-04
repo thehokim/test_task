@@ -1,0 +1,4 @@
+2025-12-04 15:31:35,775 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/users/2
+2025-12-04 15:31:35,799 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /users/2 HTTP/1.1" 200 None
+2025-12-04 15:31:35,799 - JSONPlaceholderClient - INFO - 200 (0.02s)
+2025-12-04 15:31:35,799 - JSONPlaceholderClient - DEBUG - {'id': 2, 'name': 'Ervin Howell', 'username': 'Antonette', 'email': 'Shanna@melissa.tv', 'address': {'street': 'Victor Plains', 'suite': 'Suite 879', 'city': 'Wisokyburgh', 'zipcode': '90566-7771', 'geo': {'lat': '-43.9509', 'lng': '-34.4618'}}, 'phone': '010-692-6593 x09125', 'website': 'anastasia.net', 'company': {'name': 'Deckow-Crist', 'catchPhrase': 'Proactive didactic contingency', 'bs': 'synergize scalable supply-chains'}}

@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"7ec7673d1ba6344d2ca50d9893192ad1","name":"Posts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":6,"unknown":0,"total":6}},{"uid":"cb10146bc9224a8b2c0f350201426f7f","name":"Comments","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}},{"uid":"8233a41300bd5d5bd2551cb8ccf39969","name":"Users","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
