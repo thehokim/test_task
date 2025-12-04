@@ -5,7 +5,7 @@ attrs==25.4.0
 certifi==2025.11.12
 charset-normalizer==3.4.4
 coverage==7.6.10
-dnspython==2.8.0
+dnspython==2.7.0
 email-validator==2.3.0
 execnet==2.1.2
 idna==3.11
