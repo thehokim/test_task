@@ -1,5 +1,0 @@
-2025-12-05 08:06:41,435 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/posts/5
-2025-12-05 08:06:41,461 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /posts/5 HTTP/1.1" 200 None
-2025-12-05 08:06:41,461 - JSONPlaceholderClient - INFO - 200 (0.03s)
-2025-12-05 08:06:41,461 - JSONPlaceholderClient - DEBUG - {'userId': 1, 'id': 5, 'title': 'nesciunt quas odio', 'body': 'repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque'}
-2025-12-05 08:06:41,461 - test - INFO - Post 5 validated: nesciunt quas odio

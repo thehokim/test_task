@@ -1,0 +1,5 @@
+INFO     JSONPlaceholderClient:client.py:29 GET https://jsonplaceholder.typicode.com/posts/99999
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/99999 HTTP/1.1" 404 None
+INFO     JSONPlaceholderClient:client.py:34 404 (0.01s)
+DEBUG    JSONPlaceholderClient:client.py:36 {}
+INFO     test:test_posts.py:82 Received 404 for post ID 99999

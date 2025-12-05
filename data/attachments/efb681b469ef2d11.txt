@@ -1,0 +1,4 @@
+2025-12-05 08:08:21,475 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/users/4
+2025-12-05 08:08:21,483 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /users/4 HTTP/1.1" 200 None
+2025-12-05 08:08:21,484 - JSONPlaceholderClient - INFO - 200 (0.01s)
+2025-12-05 08:08:21,484 - JSONPlaceholderClient - DEBUG - {'id': 4, 'name': 'Patricia Lebsack', 'username': 'Karianne', 'email': 'Julianne.OConner@kory.org', 'address': {'street': 'Hoeger Mall', 'suite': 'Apt. 692', 'city': 'South Elvis', 'zipcode': '53919-4257', 'geo': {'lat': '29.4572', 'lng': '-164.2990'}}, 'phone': '493-170-9623 x156', 'website': 'kale.biz', 'company': {'name': 'Robel-Corkery', 'catchPhrase': 'Multi-tiered zero tolerance productivity', 'bs': 'transition cutting-edge web services'}}

@@ -1,0 +1,5 @@
+INFO     JSONPlaceholderClient:client.py:29 GET https://jsonplaceholder.typicode.com/posts/2
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/2 HTTP/1.1" 200 None
+INFO     JSONPlaceholderClient:client.py:34 200 (0.01s)
+DEBUG    JSONPlaceholderClient:client.py:36 {'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+INFO     test:test_posts.py:188 Post 2 validated: qui est esse

@@ -1,6 +1,0 @@
-INFO     JSONPlaceholderClient:client.py:29 PUT https://jsonplaceholder.typicode.com/posts/1
-DEBUG    JSONPlaceholderClient:client.py:31 Payload: {'id': 1, 'title': 'Updated Test Post', 'body': 'This post has been updated during testing', 'userId': 1}
-DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "PUT /posts/1 HTTP/1.1" 200 None
-INFO     JSONPlaceholderClient:client.py:34 200 (0.13s)
-DEBUG    JSONPlaceholderClient:client.py:36 {'id': 1, 'title': 'Updated Test Post', 'body': 'This post has been updated during testing', 'userId': 1}
-INFO     test:test_posts.py:149 Post 1 updated successfully
