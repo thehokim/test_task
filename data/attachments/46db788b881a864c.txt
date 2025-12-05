@@ -1,0 +1,5 @@
+2025-12-05 08:06:41,077 - JSONPlaceholderClient - INFO - DELETE https://jsonplaceholder.typicode.com/posts/1
+2025-12-05 08:06:41,138 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+2025-12-05 08:06:41,138 - JSONPlaceholderClient - INFO - 200 (0.06s)
+2025-12-05 08:06:41,138 - JSONPlaceholderClient - DEBUG - {}
+2025-12-05 08:06:41,138 - test - INFO - Post 1 deleted successfully

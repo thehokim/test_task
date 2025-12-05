@@ -1,5 +1,0 @@
-2025-12-04 15:36:41,548 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/posts/2
-2025-12-04 15:36:41,572 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /posts/2 HTTP/1.1" 200 None
-2025-12-04 15:36:41,573 - JSONPlaceholderClient - INFO - 200 (0.02s)
-2025-12-04 15:36:41,573 - JSONPlaceholderClient - DEBUG - {'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
-2025-12-04 15:36:41,573 - test - INFO - Post 2 validated: qui est esse

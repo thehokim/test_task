@@ -1,5 +1,0 @@
-2025-12-04 15:36:41,522 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/posts/1
-2025-12-04 15:36:41,545 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
-2025-12-04 15:36:41,545 - JSONPlaceholderClient - INFO - 200 (0.02s)
-2025-12-04 15:36:41,545 - JSONPlaceholderClient - DEBUG - {'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
-2025-12-04 15:36:41,545 - test - INFO - Post 1 validated: sunt aut facere repellat provident occaecati excepturi optio reprehenderit

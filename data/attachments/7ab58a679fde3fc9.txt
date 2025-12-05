@@ -1,4 +1,0 @@
-2025-12-04 15:36:41,880 - JSONPlaceholderClient - INFO - GET https://jsonplaceholder.typicode.com/users/5
-2025-12-04 15:36:41,903 - urllib3.connectionpool - DEBUG - https://jsonplaceholder.typicode.com:443 "GET /users/5 HTTP/1.1" 200 None
-2025-12-04 15:36:41,903 - JSONPlaceholderClient - INFO - 200 (0.02s)
-2025-12-04 15:36:41,903 - JSONPlaceholderClient - DEBUG - {'id': 5, 'name': 'Chelsey Dietrich', 'username': 'Kamren', 'email': 'Lucio_Hettinger@annie.ca', 'address': {'street': 'Skiles Walks', 'suite': 'Suite 351', 'city': 'Roscoeview', 'zipcode': '33263', 'geo': {'lat': '-31.8129', 'lng': '62.5342'}}, 'phone': '(254)954-1289', 'website': 'demarco.info', 'company': {'name': 'Keebler LLC', 'catchPhrase': 'User-centric fault-tolerant solution', 'bs': 'revolutionize end-to-end systems'}}
