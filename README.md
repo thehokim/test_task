@@ -89,8 +89,8 @@ project/
 ### Шаг 1: Клонирование репозитория
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/thehokim/test_task.git
+cd test_task
 ```
 
 ### Шаг 2: Создание виртуального окружения
@@ -211,13 +211,6 @@ allure open allure-report
 - 🔍 **Behaviors** - группировка по features и stories
 - 📦 **Packages** - структура пакетов
 
-### Примеры отчетов
-
-#### Dashboard
-![Allure Dashboard](https://docs.qameta.io/allure/images/overview_report.png)
-
-#### Test Details
-![Test Details](https://docs.qameta.io/allure/images/test_case.png)
 
 ## 🔄 CI/CD Pipeline
 
@@ -247,7 +240,7 @@ allure open allure-report
 
 4. **Publish**
    - Публикация отчета на GitHub Pages
-   - Доступ по URL: `https://YOUR_USERNAME.github.io/YOUR_REPO/`
+   - Доступ по URL: `https://thehokim.github.io/test_task/`
 
 5. **Notify**
    - Уведомление о результатах
@@ -258,131 +251,6 @@ allure open allure-report
 2. Выберите нужный workflow run
 3. Скачайте артефакты или просмотрите отчет на GitHub Pages
 
-### Настройка GitHub Pages для отчетов
-
-1. Settings → Pages
-2. Source: Deploy from a branch
-3. Branch: `gh-pages` / `root`
-4. Save
-
-## 🎯 Примеры использования
-
-### Пример 1: Запуск smoke тестов локально
-
-```bash
-# Активировать виртуальное окружение
-source venv/bin/activate  # Linux/Mac
-# или
-venv\Scripts\activate     # Windows
-
-# Запустить smoke тесты
-pytest tests/ -m smoke -v
-
-# Сгенерировать отчет
-allure generate allure-results -o allure-report --clean
-allure open allure-report
-```
-
-### Пример 2: Запуск с кастомной конфигурацией
-
-```bash
-# Установить переменные окружения
-export API_BASE_URL="https://jsonplaceholder.typicode.com"
-export API_TIMEOUT="15"
-export LOG_LEVEL="DEBUG"
-
-# Запустить тесты
-pytest tests/ -v
-```
-
-### Пример 3: Запуск только негативных сценариев
-
-```bash
-pytest tests/ -m negative -v
-```
-
-### Пример 4: Параллельное выполнение всех тестов
-
-```bash
-pytest tests/ -n auto --dist loadscope
-```
-
-## 📝 Переменные окружения
-
-Вы можете настроить поведение тестов через environment variables:
-
-| Переменная | По умолчанию | Описание |
-|-----------|--------------|----------|
-| `API_BASE_URL` | `https://jsonplaceholder.typicode.com` | Базовый URL API |
-| `API_TIMEOUT` | `10` | Таймаут запросов (сек) |
-| `API_MAX_RETRIES` | `3` | Количество повторных попыток |
-| `LOG_LEVEL` | `INFO` | Уровень логирования |
-| `LOG_DIR` | `logs` | Директория для логов |
-| `ALLURE_RESULTS_DIR` | `allure-results` | Директория Allure результатов |
-| `PARALLEL_ENABLED` | `false` | Включить параллельное выполнение |
-| `PARALLEL_WORKERS` | `4` | Количество параллельных воркеров |
-
-**Пример использования:**
-
-```bash
-# Linux/Mac
-export API_BASE_URL="https://jsonplaceholder.typicode.com"
-export LOG_LEVEL="DEBUG"
-pytest tests/
-
-# Windows (PowerShell)
-$env:API_BASE_URL="https://jsonplaceholder.typicode.com"
-$env:LOG_LEVEL="DEBUG"
-pytest tests/
-```
-
-## 🏷️ Pytest маркеры
-
-Используйте маркеры для фильтрации тестов:
-
-```bash
-# Smoke тесты (критичные, быстрые)
-pytest tests/ -m smoke
-
-# Regression тесты (полный набор)
-pytest tests/ -m regression
-
-# Позитивные сценарии
-pytest tests/ -m positive
-
-# Негативные сценарии
-pytest tests/ -m negative
-
-# Комбинация маркеров
-pytest tests/ -m "smoke and positive"
-pytest tests/ -m "regression and not negative"
-```
-
-## 🐛 Отладка
-
-### Просмотр логов
-
-Логи сохраняются в директории `logs/`:
-
-```bash
-# Просмотр последних логов
-tail -f logs/pytest.log
-
-# Поиск ошибок в логах
-grep ERROR logs/pytest.log
-```
-
-### Запуск с дополнительным выводом
-
-```bash
-# Максимальный вывод
-pytest tests/ -vv -s
-
-# С traceback
-pytest tests/ -vv --tb=long
-
-# С покрытием кода
-pytest tests/ --cov=api_client --cov-report=html
 ```
 
 
